@@ -1,27 +1,24 @@
-// Writing basic functions in Javascript. 
-// However, before we continue let's understand few basic concepts. 
+// Now let's write a complex yet simple function which calculates area of a square, rectangle, triangle. 
+// You think you can do it? Pause the video and try it yourself. 
 
 
-// Let's begin writing functions which involve basic arithmatic operations like Addition, Subtraction, Division, Multiplication. 
 
 
-function sum (a,b){
-    return a+b;
+function areaSq (side){
+    return side * side ;
 }
 
-console.log(`The sum of 4 & 5 is ${sum(4,5)}`);
+console.log(`The area of the square with side 6 units is ${areaSq(6)}`);
 
-// Practice yourself 
-// add the function body and log the results in next line seeing the above example. 
+// Finish the completing the code for the following and the log the results as done above. 
 
-function product(a,b){
+
+function areaRec (l,b) {
+    
+}
+
+function areaTriangle () {
 
 }
 
-function sub (a,b){
 
-}
-
-function div(a,b) {
-
-}
