@@ -1,24 +1,16 @@
 // Now let's write a complex yet simple function which calculates area of a square, rectangle, triangle. 
 // You think you can do it? Pause the video and try it yourself. 
 
+function palindrome(word){
+    var length = word.length;
+    var center = Math.floor(length/2);
 
-
-
-function areaSq (side){
-    return side * side ;
+    for (i=0;i<center;i++){
+        if(word[i] !== word[length-i-1]){
+            return false;
+        }
+    }
+    return true;
 }
 
-console.log(`The area of the square with side 6 units is ${areaSq(6)}`);
-
-// Finish the completing the code for the following and the log the results as done above. 
-
-
-function areaRec (l,b) {
-    
-}
-
-function areaTriangle () {
-
-}
-
-
+console.log(`Is the following word entered by the user a palindrome, Answer is : - (yes ${word}`)
