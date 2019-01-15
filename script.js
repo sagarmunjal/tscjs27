@@ -1,11 +1,8 @@
+/*
+// TOPIC - JS CODE EXECUTION
+// CREATION AND EXECUTION PHASE
+// Now we are going to learn more about the creation and execution phase. 
+*/
 
 
-// Factorial example 
-// You think you can do it? Pause the video and try it yourself. 
-
-function factorial(n){
-    var result = n <= 1 ?  1 : n * factorial(n-1);
-    return result;
-}
-
-console.log(`Factorial of the number 4 is ${factorial(4)}`);
+console.log(this);
