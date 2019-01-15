@@ -1,16 +1,11 @@
-// Now let's write a complex yet simple function which calculates area of a square, rectangle, triangle. 
+
+
+// Factorial example 
 // You think you can do it? Pause the video and try it yourself. 
 
-function palindrome(word){
-    var length = word.length;
-    var center = Math.floor(length/2);
-
-    for (i=0;i<center;i++){
-        if(word[i] !== word[length-i-1]){
-            return false;
-        }
-    }
-    return true;
+function factorial(n){
+    var result = n <= 1 ?  1 : n * factorial(n-1);
+    return result;
 }
 
-console.log(`Is the following word entered by the user a palindrome, Answer is : - (yes ${word}`)
+console.log(`Factorial of the number 4 is ${factorial(4)}`);
